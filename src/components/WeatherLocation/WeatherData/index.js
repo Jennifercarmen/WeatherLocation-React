@@ -14,7 +14,7 @@ const WeatherData = ({ data }) =>{
     );
 }
 
-WeatherData.PropTypes = {
+WeatherData.propTypes = {
     data : PropTypes.shape({
         temperature:PropTypes.number.isRequired,
         weatherState:PropTypes.string.isRequired,
