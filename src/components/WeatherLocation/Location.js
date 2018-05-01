@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Location = ({ city }) => ( //destructuring
-        <div>
+        <div className="LocationCont">
             <h1>
                 {city}
             </h1>
