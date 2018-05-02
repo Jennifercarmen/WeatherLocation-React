@@ -5,7 +5,7 @@ import transformForecast from './../services/transformForecast'
 
 import './styles.css';
 
-const url= "http://api.openweathermap.org/data/2.5/forecast";
+const url= "https://api.openweathermap.org/data/2.5/forecast";
 const api_key= "56f0f39ab3499bf4dbbd70b4a8f925a5";
 
 
