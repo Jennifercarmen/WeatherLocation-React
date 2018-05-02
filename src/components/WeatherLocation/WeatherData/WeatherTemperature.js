@@ -34,7 +34,7 @@ const stateIconName = weatherState => {
     }
 }
 const getWeatherIcon = weatherState => {
-    return ((<WeatherIcons className="wicon" name={stateIconName(weatherState)} size="4x" />))
+    return ((<WeatherIcons className="wicon" name={stateIconName(weatherState)} size="3x" />))
 }
 const WeatherTemperature = ({ temperature, weatherState }) => (
     <div className="weatherTemperatureCont">

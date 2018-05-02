@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 const Location = ({ city }) => ( //destructuring
         <div className="LocationCont">
-            <h1>
+            <h3>
                 {city}
-            </h1>
+            </h3>
         </div>
 )
 

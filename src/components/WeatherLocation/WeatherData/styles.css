@@ -10,9 +10,9 @@
     display: inline-block;
 }
 .temperature{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
-    padding-left: 20px;
+    padding-left: 15px;
     color: #333;
 }
 .temperaturetype{
@@ -31,7 +31,7 @@
 .extraInfoText{
     display: block;
     color: #1535c5;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
 }
 .wicon{
