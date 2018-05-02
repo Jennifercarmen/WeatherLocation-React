@@ -6,8 +6,10 @@ import {CLOUD,
      SUN,
      RAIN,
      SNOW,
-     WINDY } from './../../../constants/weather';
-     import './styles.css';
+     WINDY,
+    THUNDER,
+    DRIZZLE } from './../../../constants/weather';
+import './styles.css';
 
 const stateIconName = weatherState => {
     switch (weatherState) {
@@ -23,6 +25,10 @@ const stateIconName = weatherState => {
             return "snow";
         case WINDY:
             return "windy";
+        case THUNDER:
+            return 'day-thunderstorn';
+        case DRIZZLE:
+            return 'day-showers';
         default:
             return "day-sunny";
     }
